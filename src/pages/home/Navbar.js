@@ -1,7 +1,7 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { useAuthDispatch, useAuthState } from '../../context/auth';
+import { useAuthDispatch } from '../../context/auth';
 
 const NavbarPage = () => {
   const authDispatch = useAuthDispatch();

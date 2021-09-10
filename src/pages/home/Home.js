@@ -1,5 +1,4 @@
 import React, { Fragment, useEffect } from 'react';
-import { Container, Row } from 'react-bootstrap';
 import { gql, useSubscription } from '@apollo/client';
 import { useMessageDispatch } from '../../context/message';
 import { useAuthState } from '../../context/auth';
