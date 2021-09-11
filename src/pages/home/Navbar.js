@@ -14,7 +14,7 @@ const NavbarPage = () => {
   return (
     <Navbar bg='primary' variant='dark'>
       <Container>
-        <Navbar.Brand href='#home'>Navbar</Navbar.Brand>
+        <Navbar.Brand href='#home'>Chat App</Navbar.Brand>
         <Nav className='ms-auto'>
           <LinkContainer to='/login'>
             <Nav.Link>Login</Nav.Link>
