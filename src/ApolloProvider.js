@@ -11,7 +11,7 @@ import { WebSocketLink } from '@apollo/client/link/ws';
 import { getMainDefinition } from '@apollo/client/utilities'
 
 let httpLink = createHttpLink({
-  uri: 'https://elgendy-chat-app.herokuapp.com/',
+  uri: 'https://elgendy-chat-app.herokuapp.com/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
