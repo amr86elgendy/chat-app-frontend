@@ -27,7 +27,6 @@ const authLink = setContext((_, { headers }) => {
 });
 
 httpLink = authLink.concat(httpLink)
-// const host = window.location.host
 const wsLink = new WebSocketLink({
   uri: `wss://elgendy-chat-app.herokuapp.com/graphql`,
   options: {
